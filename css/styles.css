@@ -71,7 +71,7 @@ a {
   color: var(--primary-black-color);
 }
 
-.logo-studio.white-color {
+.logo-studio--white {
   color: var(--primary-white-color);
 }
 
@@ -176,12 +176,12 @@ a {
 .site-nav__link:focus,
 .contact__link:hover,
 .contact__link:focus,
-.site-nav .active-link {
+.site-nav__link--active {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
-.site-nav__link.active-link::after {
+.site-nav__link--active::after {
   position: absolute;
   content: '';
   width: 100%;
@@ -693,13 +693,13 @@ a {
 
 /* Footer */
 
-.footer {
+.page-footer {
   background-color: var(--bgd-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer .container {
+.page-footer .container {
   display: flex;
   align-items: baseline;
 }
